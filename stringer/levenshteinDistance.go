@@ -24,13 +24,3 @@ func levenshteinDistance(s string, lenS int, t string, lenT int) int {
     levenshteinDistance(s, lenS, t, lenT - 1) + 1,
     levenshteinDistance(s, lenS - 1, t, lenT - 1) + cost)
 }
-
-func min(args ...int) int {
-  min := args[0]
-  for _, v := range args {
-    if min > v {
-      min = v
-    }
-  }
-  return min
-}
