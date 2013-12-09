@@ -18,13 +18,13 @@ go get github.com/zachlatta/stringer/stringer
 package main
 
 import (
-  "fmt"
+	"fmt"
 
-  "github.com/zachlatta/stringer/stringer"
+	"github.com/zachlatta/stringer/stringer"
 )
 
 func main() {
-  editDistance := stringer.LevenshteinDistance("foo", "bar")
-  fmt.Println(editDistance)
+	editDistance := stringer.LevenshteinDistance("foo", "bar")
+	fmt.Println(editDistance)
 }
 ```
