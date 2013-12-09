@@ -4,7 +4,7 @@ Stringer is a fuzzy string matching library for Go.
 
 Supported algorithms:
 
-* Levenshtein distance
+* [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
 
 ## Installation
 
