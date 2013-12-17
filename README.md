@@ -8,7 +8,7 @@ Supported algorithms:
 
 ## Installation
 
-```go
+```
 go get github.com/zachlatta/stringer/stringer
 ```
 
